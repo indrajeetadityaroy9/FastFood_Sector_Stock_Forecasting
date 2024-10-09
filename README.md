@@ -6,9 +6,9 @@ Forecasting model to analyze and predict stock performance trends for 10 of the 
 | Column Name  | Data Type | Description                                           | Variable Type  | Type                  |
 |--------------|-----------|-------------------------------------------------------|----------------|-----------------------|
 | Date         | object    | The trading date       | Independent    | Categorical           |
-| Open         | float64   | The price at which the stock opened on a given day    | Independent    | Continuous Numerical  |
-| High         | float64   | The highest price of the stock during the trading day | Independent    | Continuous Numerical  |
-| Low          | float64   | The lowest price of the stock during the trading day  | Independent    | Continuous Numerical  |
-| Close        | float64   | The price of the stock at market close                | Independent    | Continuous Numerical  |
-| Adj Close    | float64   | Adjusted close price accounting for dividends/splits  | Dependent      | Continuous Numerical  |
-| Volume       | int64     | The number of shares traded during the day            | Independent    | Discrete Numerical    |
+| Open         | float   | The price at which the stock opened on a given day    | Independent    | Continuous Numerical  |
+| High         | float   | The highest price of the stock during the trading day | Independent    | Continuous Numerical  |
+| Low          | float   | The lowest price of the stock during the trading day  | Independent    | Continuous Numerical  |
+| Close        | float   | The price of the stock at market close                | Independent    | Continuous Numerical  |
+| Adj Close    | float   | Adjusted close price accounting for dividends/splits  | Dependent      | Continuous Numerical  |
+| Volume       | int     | The number of shares traded during the day            | Independent    | Discrete Numerical    |
